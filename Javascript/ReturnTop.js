@@ -4,9 +4,9 @@ $(function(){
         var sc = $(window).scrollTop(); // 距离顶部的距离
         //距离顶部的距离超过900px，[回到顶部]按钮出现，否则消失
         if (sc > 1000) {
-            $(".Rocket_Box").show();
+            $(".Rocket_Box").fadeIn("low")
         } else {
-            $(".Rocket_Box").hide();
+            $(".Rocket_Box").fadeOut("low");
         }
     });
     // 点击回到顶部按钮
