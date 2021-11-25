@@ -10,7 +10,7 @@ body {
 }
 #video_Box{
     width: auto;
-    max-height: 51em;
+    max-height: 52em;
     z-index: 0;
     align-items: center;
     overflow: hidden;
